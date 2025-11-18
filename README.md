@@ -3,9 +3,9 @@ Code for "Learning Compact Latent Space for Representing Neural Signed Distance 
 ## 💡 Abstract
 Neural signed distance functions (SDFs) have been a vital representation to represent 3D shapes or scenes with neural networks. An SDF is an implicit function that can query signed distances at specific coordinates for recovering a 3D surface. Although implicit functions work well on a single shape or scene, they pose obstacles when analyzing multiple SDFs with high-fidelity geometry details, due to the non-compact representations of SDFs and the loss of geometry details. To overcome these obstacles, we introduce a method to represent multiple SDFs in a common space, aiming to recover more high-fidelity geometry details with more compact latent representations. Our key idea is to take full advantage of the benefits of generalization-based and overfitting-based learning strategies, which manage to preserve high-fidelity geometry details with compact latent codes. Based on this framework, we also introduce a novel sampling strategy to sample training queries. The sampling can improve the training efficiency and eliminate artifacts caused by the influence of other SDFs. We report numerical and visual evaluations on widely used benchmarks to validate our designs and show advantages over the latest methods in terms of the representative ability and compactness.
 
-## 🖼️ High-Fidelity Geometry Reconstruction
+## 🖼️ Method Overview (方法概览)
 <div align="center">
-    <img src="assest/teaser-three-sub.png" alt="Comparison of different n bandwidths on Chair reconstruction.">
+    <img src="assest/overview.pdf" alt="Overview of the proposed high-fidelity geometry reconstruction method.">
 </div>
 
 
