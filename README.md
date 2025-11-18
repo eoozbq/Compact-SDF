@@ -5,14 +5,14 @@ Neural signed distance functions (SDFs) have been a vital representation to repr
 
 ## 🖼️ Method Overview
 <div align="center">
-    <img src="assest/overview.png" alt="Overview of the proposed high-fidelity geometry reconstruction method.">
+    <img src="assest/overview.png" alt="Overview of the proposed high-fidelity geometry reconstruction method." style="width: 70/%";>
 </div>
 
 
 ---
 
 ## 📁 Provided Scripts
-- `train_stanford.py` — Train on the **Stanford** dataset ([http://graphics.stanford.edu/data/3dscanrep/](http://graphics.stanford.edu/data/3dscanrep/))
+- `train_stanford.py` — Train on the **Stanford** dataset ([https://graphics.stanford.edu/data/3Dscanrep/](https://graphics.stanford.edu/data/3Dscanrep/))
 - `train_dfaust.py` — Train on the **DFAUST** dataset ([http://dfaust.is.tue.mpg.de/](http://dfaust.is.tue.mpg.de/))
 - `train_shapenet.py` — Train on the **ShapeNet** dataset ([https://shapenet.org/](https://shapenet.org/))
 - `generate_shapenet_meshes.py` — Generate meshes from ShapeNet-trained models  
