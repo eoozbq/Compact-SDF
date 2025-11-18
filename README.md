@@ -8,13 +8,6 @@ Neural signed distance functions (SDFs) have been a vital representation to repr
     <img src="assest/teaser-three-sub.png" alt="Comparison of different n bandwidths on Chair reconstruction.">
 </div>
 
-## 🖼️ Qualitative Results Video Demonstration
-<div align="center">
-    <video src="assest/video.mp4">
-</div>
-
-
-## This repository provides training, mesh generation, and evaluation scripts for shape reconstruction tasks across multiple datasets including **Stanford**, **DFAUST**, and **ShapeNet**.
 
 ---
 
