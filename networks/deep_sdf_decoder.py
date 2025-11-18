@@ -10,6 +10,7 @@ import numpy as np
 from torch.nn.utils import weight_norm
 import tinycudann as tcnn
 
+
 class SdfDecoder(nn.Module):
     def __init__(self, latent_size=256, hidden_dim=512,
                  skip_connection=True, tanh_act=False, ues_pe=False,
