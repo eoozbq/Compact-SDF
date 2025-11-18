@@ -14,7 +14,7 @@ Neural signed distance functions (SDFs) have been a vital representation to repr
 </div>
 
 
-This repository provides training, mesh generation, and evaluation scripts for shape reconstruction tasks across multiple datasets including **Stanford**, **DFAUST**, and **ShapeNet**.
+## This repository provides training, mesh generation, and evaluation scripts for shape reconstruction tasks across multiple datasets including **Stanford**, **DFAUST**, and **ShapeNet**.
 
 ---
 
