@@ -14,7 +14,7 @@ Neural signed distance functions (SDFs) have been a vital representation to repr
 ## 📁 Provided Scripts
 - `train_stanford.py` — Train on the **Stanford** dataset ([https://graphics.stanford.edu/data/3Dscanrep/](https://graphics.stanford.edu/data/3Dscanrep/))
 - `train_dfaust.py` — Train on the **DFAUST** dataset ([http://dfaust.is.tue.mpg.de/](http://dfaust.is.tue.mpg.de/))
-- `train_shapenet.py` — Train on the **ShapeNet** dataset ([https://shapenet.org/](https://shapenet.org/))
+- `train_shapenet.py` — Train on the **ShapeNet** dataset ([[https://shapenet.org/](https://shapenet.org/)](https://shapenet.org/about#download))
 - `generate_shapenet_meshes.py` — Generate meshes from ShapeNet-trained models  
 - `reconstruct_dfaust.py` — Reconstruct meshes from partial point clouds on the DFAUST dataset  
 - `evaluate.py` — Evaluate reconstruction quality using **Chamfer Distance (CD)**
