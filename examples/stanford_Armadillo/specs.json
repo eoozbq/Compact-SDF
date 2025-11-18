@@ -1,0 +1,36 @@
+{
+  "Description" : [ "This experiment learns a shape representation for mix small obj"],
+  "DataSource" : "data/stanford",
+  "InstanceName" : "Armadillo",
+  "NetworkArch" : "deep_sdf_decoder",
+  "CodeLength" : 256,
+  "NumEpochs" : 40000,
+  "SnapshotFrequency" : 1000,
+  "AdditionalSnapshots" : [ 100, 200 ],
+  "LearningRateSchedule" : [
+    {
+      "Type" : "Step",
+      "Initial" : 0.1,
+      "Interval" : 1000,
+      "Factor" : 0.5
+    },
+    {
+      "Type" : "Step",
+      "Initial" : 0.001,
+      "Interval" : 1000,
+      "Factor" : 0.5
+    },
+    {
+      "Type" : "Step",
+      "Initial" : 0.001,
+      "Interval" : 1000,
+      "Factor" : 0.5
+    }],
+  "SamplesPerScene" : 150000,
+  "ScenesPerBatch" : 1,
+  "DataLoaderThreads" :1,
+  "CodeRegularization" : true,
+  "CodeRegularizationLambda" : 1e-4,
+  "CodeBound" : 1.0
+}
+
