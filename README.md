@@ -5,7 +5,7 @@ Neural signed distance functions (SDFs) have been a vital representation to repr
 
 ## 🖼️ Method Overview (方法概览)
 <div align="center">
-    <img src="assest/overview.pdf" alt="Overview of the proposed high-fidelity geometry reconstruction method.">
+    <img src="assest/overview.png" alt="Overview of the proposed high-fidelity geometry reconstruction method.">
 </div>
 
 
