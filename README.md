@@ -8,4 +8,24 @@ Neural signed distance functions (SDFs) have been a vital representation to repr
     <img src="assest/overview.png" alt="Overview of the proposed high-fidelity geometry reconstruction method." style="width: 70%";>
 </div>
 
+## 📁 Provided Scripts
 
+- `train_stanford.py` — Train on the **Stanford** dataset([http://graphics.stanford.edu/data/3Dscanrep/](http://graphics.stanford.edu/data/3Dscanrep/))
+
+## 🚀 Example: Single-Object Reconstruction (Stanford Armadillo)
+
+We provide an example using the Armadillo model from the Stanford dataset to demonstrate the training and mesh reconstruction process.
+
+### 1. Prepare the Armadillo Data
+
+Navigate to the `data/` directory and run:
+
+```python
+python get_data.py
+```
+
+### 2. Training the Armadillo
+
+```python
+python train_stanford.py -e examples/Stanford_Armadillo
+```
