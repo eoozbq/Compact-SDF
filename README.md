@@ -32,4 +32,5 @@ python train_stanford.py -e examples/Stanford_Armadillo
 ### 3. References
 We adapt code from
 DeepSDF (https://github.com/facebookresearch/DeepSDF)
+
 Nert-pytorch (https://github.com/yenchenlin/nerf-pytorch)
