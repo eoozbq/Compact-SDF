@@ -36,5 +36,5 @@ DeepSDF (https://github.com/facebookresearch/DeepSDF)
 Nert-pytorch (https://github.com/yenchenlin/nerf-pytorch)
 
 ### 4. Cite this work
-
-@article{Bai_Wu_Yang_Han_2026, title={Learning Compact Latent Space for Representing Neural Signed Distance Functions with High-fidelity Geometry Details}, volume={40}, DOI={10.1609/aaai.v40i4.37220}, number={4}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Bai, Qiang and Wu, Bojian and Yang, Xi and Han, Zhizhong}, year={2026}, month={Mar.}, pages={2354–2362} }
+```bibtex
+@article{Bai_Wu_Yang_Han_2026, title={Learning Compact Latent Space for Representing Neural Signed Distance Functions with High-fidelity Geometry Details}, volume={40}, DOI={10.1609/aaai.v40i4.37220}, number={4}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Bai, Qiang and Wu, Bojian and Yang, Xi and Han, Zhizhong}, year={2026}, month={Mar.}, pages={2354–2362} }```
